@@ -1,0 +1,45 @@
+---
+title: "My first R Markdown"
+author: "Sergio Alexander Torres Palomares"
+date: "5/12/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown basic description
+
+With R Markdown we can write texts, articles, books or our data Reports.
+One of the best resources of using R Markdown is that we can **Output** our
+writings with different text formats like: 
+
+- *PDF*  
+- *LATEX*  
+- *WORD*  
+- *SLIDES*  
+
+Another important resource that is really important to identify is the acces
+to insert **Codes Chunks** , with this it is possible to put plots or tables
+made by code lines like the next one.
+
+#### *Example*
+```{r echo=FALSE}
+print("Hello world")
+print("This is an easy code line wrote in order to demostrate")
+print("The use of the Code Chunk")
+```
+If there are questions about the use of R Markdown, a little review [1] about 
+some basic but important line codes was inserted however, to obtain more 
+information here <http://rmarkdown.rstudio.com>  is the link of the official 
+page were it can be found **tutorials**, **lessons** or **books**.
+
+### [1] Important R Markdown Line Codes
+- *Bold*
+- **Italics**
+- [Link]  
+ 
+
+
+
